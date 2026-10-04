@@ -1,7 +1,7 @@
-# My Portfolio Wesbite - Overview 🚀
+# Taniya Nautiyal Portfolio
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+Taniya Nautiyal's portfolio, featuring her projects, experience, education, and resume.
+The animated female developer avatar retains head tracking, blinking, typing, and scroll transitions.
 
 ## Instructions 🛠️
 

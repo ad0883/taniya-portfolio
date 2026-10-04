@@ -153,7 +153,7 @@ const Scene = () => {
 
   return (
     <>
-      <div className="character-container">
+      <div className="character-container" role="img" aria-label="Animated female developer avatar">
         <div className="character-model" ref={canvasDiv}>
           <div className="character-rim"></div>
           <div className="character-hover" ref={hoverDivRef}></div>

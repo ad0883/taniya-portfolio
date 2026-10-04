@@ -83,6 +83,7 @@
 
 .education-card-header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 20px;
@@ -110,7 +111,7 @@
   font-size: 16px;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.5);
-  white-space: nowrap;
+  white-space: normal;
   padding: 6px 14px;
   border: 1px solid rgba(94, 234, 212, 0.2);
   border-radius: 20px;

@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am a developer focused on designing and building scalable, user-centric applications that balance functionality, performance, and clean design. My experience spans both frontend and backend development, where I work on transforming ideas into reliable and efficient digital solutions. I have a strong interest in web technologies, AI integration, and developing systems that address real-world challenges. I continuously refine my skills through hands-on projects, emphasizing structured problem-solving and practical implementation.
+          I am a developer with one year of experience in data analysis and machine learning, working with Python, SQL, and web technologies. I turn complex datasets into actionable insights and build engaging web applications, from healthcare tools to finance trackers. My work combines thoughtful user experiences, practical problem-solving, and close collaboration with teams. I am pursuing a B.Tech in Computer Science and Engineering at SRM-IST, Delhi-NCR, while continuing to explore emerging technologies and inclusive game design.
         </p>
       </div>
     </div>

@@ -81,3 +81,9 @@
     font-size: 18px;
   }
 }
+
+@media only screen and (min-width: 900px) and (max-width: 1400px) {
+  .navbar-connect {
+    left: 35%;
+  }
+}

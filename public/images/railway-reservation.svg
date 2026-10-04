@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Online Railway Reservation System</title>
+  <desc id="desc">Conceptual relational database diagram connecting users and trains to tickets and payments.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#174c49"/><stop offset="1" stop-color="#091c20"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#5eead4" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="800" height="560" rx="16" fill="url(#glow)"/>
+  <rect width="800" height="560" rx="16" fill="url(#grid)"/>
+  <rect x="1" y="1" width="798" height="558" rx="15" fill="none" stroke="#2b5758"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="42" y="49" fill="#91aeac" font-size="13" letter-spacing="3">PROJECT / 04</text>
+    <circle cx="756" cy="43" r="5" fill="#5eead4"/>
+    <text x="42" y="108" fill="#ecfdf8" font-size="32" font-weight="600">Railway Reservations</text>
+
+    <g fill="none" stroke="#5eead4" stroke-width="2.5"><path d="M252 248h64v58h38m194-58h-64v58h-38m-46 45v32"/></g>
+    <g fill="#102c31" stroke="#407775" stroke-width="2"><rect x="80" y="195" width="172" height="106" rx="12"/><rect x="548" y="195" width="172" height="106" rx="12"/><rect x="314" y="254" width="172" height="96" rx="12"/><rect x="314" y="383" width="172" height="67" rx="12"/></g>
+    <g stroke="#2b5758"><path d="M80 239h172M548 239h172M314 298h172"/></g>
+    <g fill="#e0f8f3" font-size="17" text-anchor="middle"><text x="166" y="224">USER</text><text x="634" y="224">TRAIN</text><text x="400" y="283">TICKET</text><text x="400" y="423">PAYMENT</text></g>
+    <g fill="#91aeac" font-size="14" text-anchor="middle"><text x="166" y="275">user_id</text><text x="634" y="275">train_id</text><text x="400" y="328">ticket_id</text></g>
+    <path d="M42 490H758" stroke="#2b5758"/>
+    <text x="42" y="524" fill="#91aeac" font-size="13" letter-spacing="2">MYSQL · RELATIONAL DATABASE DESIGN</text>
+  </g>
+</svg>

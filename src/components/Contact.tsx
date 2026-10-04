@@ -10,38 +10,33 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:a.dwivedi6303@gmail.com" data-cursor="disable">
-                a.dwivedi6303@gmail.com
+              <a href="mailto:taniyanautiyal0@gmail.com" data-cursor="disable">
+                taniyanautiyal0@gmail.com
               </a>
             </p>
             <h4>Education</h4>
-            <p>B.Tech in CSE — SRM-IST (CGPA: 8.0)</p>
+            <p>B.Tech in CSE — SRM-IST (CGPA: 7.76)</p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Phone</h4>
             <a
-              href="https://github.com/nullpointerx01"
-              target="_blank"
+              href="tel:+918595998192"
               data-cursor="disable"
               className="contact-social"
             >
-              Github <MdArrowOutward />
+              +91 85959 98192 <MdArrowOutward />
             </a>
-            <a
-              href="https://in.linkedin.com/in/alok-dwivedi-b387b1326"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
+            <h4>Location</h4>
+            <p>Delhi, India</p>
+            <h4>Languages</h4>
+            <p>English, Hindi</p>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Alok Dwivedi</span>
+              Developer & ML Enthusiast <br /> <span>Taniya Nautiyal</span>
             </h2>
             <h5>
-              <MdCopyright /> 2025
+              <MdCopyright /> {new Date().getFullYear()}
             </h5>
           </div>
         </div>

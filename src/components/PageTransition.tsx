@@ -79,7 +79,7 @@ const PageTransition = () => {
     <div className="page-transition-overlay" ref={overlayRef}>
       <div className="transition-panel" ref={panelRef}></div>
       <div className="transition-text" ref={textRef} style={{ transform: "translateY(20px)" }}>
-        ALOK DWIVEDI
+        TANIYA NAUTIYAL
       </div>
     </div>
   );

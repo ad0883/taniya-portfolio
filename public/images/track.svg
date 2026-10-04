@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">T¹ACK finance tracker</title>
+  <desc id="desc">Conceptual finance illustration showing categorized income and expense flows with a simple chart.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#174c49"/><stop offset="1" stop-color="#091c20"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#5eead4" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="800" height="560" rx="16" fill="url(#glow)"/>
+  <rect width="800" height="560" rx="16" fill="url(#grid)"/>
+  <rect x="1" y="1" width="798" height="558" rx="15" fill="none" stroke="#2b5758"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="42" y="49" fill="#91aeac" font-size="13" letter-spacing="3">PROJECT / 02</text>
+    <circle cx="756" cy="43" r="5" fill="#5eead4"/>
+    <text x="42" y="108" fill="#ecfdf8" font-size="32" font-weight="600">T¹ACK</text>
+
+    <rect x="80" y="167" width="640" height="267" rx="18" fill="#102c31" stroke="#407775"/>
+    <text x="112" y="207" fill="#b5ccca" font-size="15" letter-spacing="2">SPENDING OVERVIEW</text>
+    <path d="M112 382H467M112 272H467M112 327H467" stroke="#2b5758"/>
+    <g fill="#5eead4"><rect x="130" y="287" width="38" height="95" rx="5"/><rect x="203" y="251" width="38" height="131" rx="5"/><rect x="276" y="312" width="38" height="70" rx="5"/><rect x="349" y="269" width="38" height="113" rx="5"/><rect x="422" y="234" width="38" height="148" rx="5"/></g>
+    <path d="M510 207V395" stroke="#2b5758"/>
+    <g fill="#163d40" stroke="#407775"><circle cx="559" cy="258" r="22"/><circle cx="559" cy="334" r="22"/></g>
+    <g fill="none" stroke="#5eead4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M559 247v22m-8-8 8 8 8-8"/><path d="M559 345v-22m-8 8 8-8 8 8"/></g>
+    <g fill="#b5ccca" font-size="16"><text x="599" y="264">Income</text><text x="599" y="340">Expenses</text></g>
+    <path d="M42 490H758" stroke="#2b5758"/>
+    <text x="42" y="524" fill="#91aeac" font-size="13" letter-spacing="2">INCOME · EXPENSES · INSIGHTS</text>
+  </g>
+</svg>

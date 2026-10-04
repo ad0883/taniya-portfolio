@@ -1,9 +1,8 @@
 import {
-  FaGithub,
-  FaLinkedinIn,
+  FaEnvelope,
+  FaPhone,
 } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
-import { transitionTo } from "./PageTransition";
 import { TbNotes } from "react-icons/tb";
 
 import HoverLinks from "./HoverLinks";
@@ -17,28 +16,20 @@ const SocialIcons = () => {
         <Magnetic>
           <span>
             <a
-              href="https://github.com/nullpointerx01"
-              target="_blank"
-              onClick={(e) => {
-                e.preventDefault();
-                transitionTo("https://github.com/nullpointerx01", true);
-              }}
+              href="mailto:taniyanautiyal0@gmail.com"
+              aria-label="Email Taniya Nautiyal"
             >
-              <FaGithub />
+              <FaEnvelope />
             </a>
           </span>
         </Magnetic>
         <Magnetic>
           <span>
             <a
-              href="https://in.linkedin.com/in/alok-dwivedi-b387b1326"
-              target="_blank"
-              onClick={(e) => {
-                e.preventDefault();
-                transitionTo("https://in.linkedin.com/in/alok-dwivedi-b387b1326", true);
-              }}
+              href="tel:+918595998192"
+              aria-label="Call Taniya Nautiyal"
             >
-              <FaLinkedinIn />
+              <FaPhone />
             </a>
           </span>
         </Magnetic>
@@ -47,11 +38,10 @@ const SocialIcons = () => {
       <Magnetic>
         <a
           className="resume-button"
-          href="#"
-          onClick={(e) => {
-            e.preventDefault();
-            transitionTo("#", false); // Add actual PDF link here
-          }}
+          href="/taniya_nautiyal_resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View Taniya Nautiyal's resume (PDF)"
         >
           <HoverLinks text="RESUME" />
           <span>

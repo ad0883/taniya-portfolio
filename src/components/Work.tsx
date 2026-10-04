@@ -5,34 +5,36 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Health-nexus AI",
+    title: "HealthNexus- AI",
     category: "AI Healthcare",
-    tools: "Python, ML, Data Analysis, Feature Engineering",
-    image: "/images/healthnexus.png",
-  },
-  {
-    title: "JARVIS",
-    category: "AI Virtual Assistant",
-    tools: "Python, Speech-to-Text, Text-to-Speech, Automation",
-    image: "/images/jarvis.png",
-  },
-  {
-    title: "BizIntelX",
-    category: "AI Business Intelligence",
-    tools: "Langchain, LlamaIndex, OpenAI, FastAPI, Streamlit",
-    image: "/images/bizintelx.png",
-  },
-  {
-    title: "E-com Website",
-    category: "E-Commerce Platform",
-    tools: "Django, Python, SQL, Authentication, Admin Dashboard",
-    image: "/images/ecom.png",
+    description:
+      "Machine learning for early disease detection, health monitoring, and prediction from structured medical data.",
+    tools: "Python, Scikit-Learn, Pandas, NumPy, Feature Engineering",
+    image: "/images/healthnexus.svg",
   },
   {
     title: "T¹ACK",
     category: "Finance Tracker",
-    tools: "Flask, Python, CRUD, Auth, Data Analytics",
-    image: "/images/track.png",
+    description:
+      "A responsive income and expense tracker with user authentication, role-based access, and transaction management.",
+    tools: "Flask, Python, MySQL, HTML5, CSS3, JavaScript, CRUD",
+    image: "/images/track.svg",
+  },
+  {
+    title: "Railway Network Site",
+    category: "Network Optimization",
+    description:
+      "Visualizes minimum spanning trees using Kruskal’s and Prim’s algorithms to optimize railway networks of 50+ nodes.",
+    tools: "Python, NetworkX, Matplotlib, Graph Theory",
+    image: "/images/railway-network.svg",
+  },
+  {
+    title: "Online Railway Reservation System",
+    category: "Relational Database Design",
+    description:
+      "A MySQL reservation system for bookings, cancellations, and train schedules, with normalized tables and concurrency control.",
+    tools: "MySQL, Schema Design, Constraints, Joins, Views, Triggers, Cursors",
+    image: "/images/railway-reservation.svg",
   },
 ];
 
@@ -108,6 +110,9 @@ const Work = () => {
                         <p className="carousel-category">
                           {project.category}
                         </p>
+                        <p className="carousel-description">
+                          {project.description}
+                        </p>
                         <div className="carousel-tools">
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
@@ -115,7 +120,10 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      <WorkImage
+                        image={project.image}
+                        alt={`${project.title} project illustration`}
+                      />
                     </div>
                   </div>
                 </div>

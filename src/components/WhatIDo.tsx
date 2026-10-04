@@ -94,20 +94,20 @@ const WhatIDo = () => {
               <h3>WEB DEVELOPMENT</h3>
               <h4>Full Stack Applications</h4>
               <p>
-                Building responsive and dynamic web applications using modern
-                frameworks. From e-commerce to EdTech platforms, I deliver
-                user-centric solutions with clean architecture.
+                Building responsive web applications with Flask, Python, and
+                MySQL. From finance tracking to healthcare tools, I connect
+                intuitive interfaces with authentication and reliable data handling.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Python</div>
-                <div className="what-tags">Django</div>
                 <div className="what-tags">Flask</div>
                 <div className="what-tags">JavaScript</div>
                 <div className="what-tags">HTML5</div>
                 <div className="what-tags">CSS3</div>
-                <div className="what-tags">SQL</div>
-                <div className="what-tags">Git</div>
+                <div className="what-tags">MySQL</div>
+                <div className="what-tags">Git/GitHub</div>
+                <div className="what-tags">Docker</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -134,20 +134,20 @@ const WhatIDo = () => {
               <h3>DATA & ML</h3>
               <h4>Analysis & Machine Learning</h4>
               <p>
-                Transforming complex datasets into actionable insights using
-                data analysis and machine learning. From predictive models to
-                interactive visualizations, I drive data-informed decisions.
+                Turning data into insights with machine learning and clear
+                visualizations. My projects cover healthcare prediction, MRI
+                classification, and railway network optimization using graph algorithms.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Python</div>
-                <div className="what-tags">MySQL</div>
+                <div className="what-tags">PyTorch</div>
+                <div className="what-tags">Scikit-Learn</div>
+                <div className="what-tags">Pandas</div>
+                <div className="what-tags">NumPy</div>
+                <div className="what-tags">Matplotlib</div>
+                <div className="what-tags">NetworkX</div>
+                <div className="what-tags">SQL</div>
                 <div className="what-tags">MS-Excel</div>
-                <div className="what-tags">Machine Learning</div>
-                <div className="what-tags">Data Science</div>
-                <div className="what-tags">NLP</div>
-                <div className="what-tags">C++</div>
-                <div className="what-tags">Canva</div>
               </div>
               <div className="what-arrow"></div>
             </div>

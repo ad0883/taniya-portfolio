@@ -25,16 +25,20 @@ const Navbar = () => {
     smoother.scrollTop(0);
     smoother.paused(true);
 
-    let links = document.querySelectorAll(".header ul a");
+    const links = document.querySelectorAll(".header ul a");
     links.forEach((elem) => {
-      let element = elem as HTMLAnchorElement;
+      const element = elem as HTMLAnchorElement;
       element.addEventListener("click", (e) => {
-        if (window.innerWidth > 1024) {
-          e.preventDefault();
-          let elem = e.currentTarget as HTMLAnchorElement;
-          let section = elem.getAttribute("data-href");
-          smoother.scrollTo(section, true, "top top");
-        }
+        e.preventDefault();
+        const link = e.currentTarget as HTMLAnchorElement;
+        const section = link.getAttribute("data-href");
+        // Use the same scroll container on touch devices so focusing a project
+        // control does not reset a native anchor scroll and move the button.
+        smoother.scrollTo(
+          section,
+          true,
+          window.innerWidth < 500 ? "top 120px" : "top top"
+        );
       });
     });
     window.addEventListener("resize", () => {
@@ -46,15 +50,15 @@ const Navbar = () => {
       <div className="header">
         <Magnetic>
           <a href="/#" className="navbar-title" data-cursor="disable">
-            AD
+            TN
           </a>
         </Magnetic>
         <a
-          href="mailto:a.dwivedi6303@gmail.com"
+          href="mailto:taniyanautiyal0@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
         >
-          a.dwivedi6303@gmail.com
+          taniyanautiyal0@gmail.com
         </a>
         <ul>
           <Magnetic>

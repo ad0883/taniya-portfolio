@@ -17,6 +17,7 @@
 .contact-flex {
   display: flex;
   justify-content: space-between;
+  gap: 32px;
 }
 
 .contact-flex h4 {
@@ -28,6 +29,12 @@
 .contact-box {
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.contact-box .contact-social {
+  margin: 10px 0 20px;
 }
 
 .contact-flex p {

@@ -1,5 +1,4 @@
 import "./styles/Education.css";
-import { FaCertificate } from "react-icons/fa6";
 
 const Education = () => {
   const courses = [
@@ -14,39 +13,7 @@ const Education = () => {
     "Data Science",
     "Natural Language Processing",
     "Object Oriented Design and Programming",
-  ];
-
-  const certifications = [
-    {
-      title: "Google Cloud Certified Professional Cloud Architect",
-      issuer: "Google Cloud",
-      description: "Expertise in compute, networking, storage, IAM, and security on Google Cloud.",
-    },
-    {
-      title: "Microsoft Certified: Azure Developer Associate",
-      issuer: "Microsoft",
-      description: "Developed cloud applications using Azure App Services, Functions, and Containers.",
-    },
-    {
-      title: "Postman API Fundamentals Student Expert",
-      issuer: "Postman",
-      description: "Designed and tested REST APIs using Postman collections and environments.",
-    },
-    {
-      title: "Excel with Copilot: AI-Driven Data Analysis",
-      issuer: "Microsoft",
-      description: "Used Copilot to analyze datasets, identify trends, and generate insights.",
-    },
-    {
-      title: "Deloitte Australia - Cyber Job Simulation",
-      issuer: "Deloitte",
-      description: "Completed a job simulation involving reading web activity logs and identifying suspicious activity.",
-    },
-    {
-      title: "Deloitte Australia Technology Job Simulation",
-      issuer: "Deloitte",
-      description: "Completed a job simulation involving development and coding.",
-    },
+    "Computer Graphics and Animation",
   ];
 
   return (
@@ -54,7 +21,7 @@ const Education = () => {
       <div className="education-container">
         <h2>
           Education <span>&</span>
-          <br /> Certifications
+          <br /> Coursework
         </h2>
 
         <div className="education-grid">
@@ -64,13 +31,13 @@ const Education = () => {
                 <h3>Bachelor of Technology</h3>
                 <h4>Computer Science and Engineering</h4>
               </div>
-              <div className="education-year">Aug 2023 — Aug 2027</div>
+              <div className="education-year">Aug 2023 — Aug 2027 (Expected)</div>
             </div>
             <h5>SRM-IST, Delhi-NCR</h5>
             
             <div className="education-gpa">
               <span>CGPA</span>
-              <span>8.0</span>
+              <span>7.76</span>
             </div>
 
             <div className="education-courses">
@@ -83,23 +50,14 @@ const Education = () => {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-
-        <div className="education-certs">
-          <h3>Professional Certifications</h3>
-          <div className="cert-grid">
-            {certifications.map((cert, index) => (
-              <div className="cert-card" key={index}>
-                <div className="cert-icon">
-                  <FaCertificate />
-                </div>
-                <div className="cert-info">
-                  <h4>{cert.title}</h4>
-                  <p>{cert.description}</p>
-                </div>
+            <div className="education-courses">
+              <h5>Additional Tools</h5>
+              <div className="education-tags">
+                <span className="education-tag">C++</span>
+                <span className="education-tag">Unreal Engine</span>
+                <span className="education-tag">MS-PowerPoint</span>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>

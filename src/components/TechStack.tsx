@@ -11,18 +11,34 @@ import {
   RapierRigidBody,
 } from "@react-three/rapier";
 
-const textureLoader = new THREE.TextureLoader();
-const imageUrls = [
-  "/images/javascript.webp",
-  "/images/mysql.webp",
-  "/images/react2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/typescript.webp",
-  "/images/next2.webp",
+const skills = [
+  { name: "Python", color: "#3776ab" },
+  { name: "C++", color: "#00599c" },
+  { name: "MySQL", color: "#00758f" },
+  { name: "Flask", color: "#242424" },
+  { name: "PyTorch", color: "#ee4c2c" },
+  { name: "Git", color: "#f05032" },
+  { name: "NetworkX", color: "#4267b2" },
+  { name: "Unreal", color: "#313131" },
 ];
-const textures = imageUrls.map((url) => textureLoader.load(url));
+const textures = skills.map(({ name, color }) => {
+  const canvas = document.createElement("canvas");
+  canvas.width = 1024;
+  canvas.height = 704;
+  const context = canvas.getContext("2d")!;
+  context.fillStyle = "#ffffff";
+  context.fillRect(0, 0, canvas.width, canvas.height);
+  context.fillStyle = color;
+  context.font = "700 80px Arial, sans-serif";
+  context.textAlign = "center";
+  context.textBaseline = "middle";
+  // Repeat each badge so it is visible on both sides of the sphere.
+  context.fillText(name, 256, 352, 400);
+  context.fillText(name, 768, 352, 400);
+  const texture = new THREE.CanvasTexture(canvas);
+  texture.colorSpace = THREE.SRGBColorSpace;
+  return texture;
+});
 
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
 
